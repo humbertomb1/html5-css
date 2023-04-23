@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        @charset "UTF-8";
+        #principal {
+            background-color: lightblue;
+            margin: 0px 0px 0px 600px  ;
+            height: 600px;
+            width: 700px;
+        }
+        #div1 {                         /*PRIMEIRA BOX*/
+            position: absolute;
+            text-align: center;
+            background-color: lightgray;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+
+        #div2 {                         /* SEGUNDA BOX */
+            position:absolute;
+            display: inline-block;
+            text-align: center;
+            background-color: lightgray;
+            border: 1px solid black;
+            margin: 0px 0px 400px 235px;
+            height: 200px;
+            width: 200px;
+        }
+        #div3 {               
+            position: absolute;          /* TERCEIRA BOX*/
+            display: inline-block;
+            text-align: center;
+            background-color: lightgray;
+            border: 1px solid black;
+            margin: 0px 0px 0px 350px ;
+            height: 200px;
+            width: 200px;
+        }
+        span p {
+            text-align: center;
+            display: none;
+        }
+    
+        #div1:hover {                       /* HOOVER BACKGROUND COLOR DIV1*/
+            background-color: green;
+        }
+       
+        #div1:hover span p {             /* HOOVER PARAGRÁFO*/
+            position: absolute;
+            display: inline-block;
+            background-color: blueviolet;
+            margin: 0px 50px 0px 0px;
+            height: 30px;
+            width: 100px;
+            border-color: brown;
+        }
+       
+       
+        #div2:hover {
+            background-color: yellow;
+        }
+        
+        #div3:hover {
+            background-color: yellow;
+        }    
+    </style>
+</head>
+<body>
+        <div id="principal">
+            <div id="div1"><p>1</p>
+                <span>
+                    <p>ACHOU!</p>
+                </span>
+            </div>
+            <div id="div2">2</div>
+            <div id="div3">3</div>
+        </div>
+</body>
+</html>
