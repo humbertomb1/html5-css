@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #sec1 {
+            position: relative;
+            height: 600px;
+            width: 800px;
+            background-color: royalblue;
+        }
+        #sec2 {
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            background-color: rosybrown;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="sec1">
+        <section id="sec2"></section>
+    </section>  
+</body>
+</html>

@@ -71,7 +71,6 @@ nav > a {
     color: white;
 }
  
-
 .navitrans:hover {
     transition: 0.5s;
     background-color: #2FA866;
@@ -96,7 +95,6 @@ main  article > p {
     text-indent: 20px;
     line-height: 1.5em;
     color: rgb(51, 51, 51);
-    
 }
 
 .destaque {
@@ -162,8 +160,6 @@ aside {
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.466);
     text-align: center;
     text-align: justify;
-   
-    
 }
 
 aside > h4 {

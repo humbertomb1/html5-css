@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+body {
+    position: relative;
+    height: 97vh;
+}
 .quadrado {
+    position: absolute;
     width: 400px;
     text-align: center;
     height: 400px;
@@ -12,10 +17,14 @@
 
 div#qd1{
     background-color: royalblue;
+    left: 10%;
+    transform: translate(10%);
 }
 
 div#qd2 {
     background-image: linear-gradient(to right, purple, rgb(13, 235, 161));
+    left: 30%;
+    transform: translate(30%); 
 }
 
 div#qd3 {
@@ -23,10 +32,8 @@ div#qd3 {
     background-repeat: repeat;
     background-size: 138px;
     background-position: left center;
-}
-
-h1 {
-    margin: 0px 0px 20px 300px;
+    left: 50%;
+    transform: translate(50%);
 }
 
 h2 {
