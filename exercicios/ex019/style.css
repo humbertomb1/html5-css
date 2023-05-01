@@ -32,7 +32,8 @@
     font-family: var(--font2);
     font-size: 0.8em;
 }
-.section {
+section {
+    margin: -8px;
 }
 .section  p {
     text-align: center;
@@ -40,43 +41,61 @@
    
 }
 #ausencia {
-    font-size: 1.2em;
     margin-bottom: 50vh;
     border: 1px solid black;
     padding: 20px;
+}
+@media screen and (min-width: 549px) {
+    #ausencia > p {
+        font-size: 1.9em;
+        
+    }
+}
+@media screen and (max-width: 623px) {
+    #ausencia > p {
+        font-size: 1em;
+       
+    }
 }
 #ausencia > p {
     padding: 20px;
     font-family: var(--font1);
     line-height: 1.7em;
-    
-    width: 80vw;
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
     padding: 10px 10px;
 }
 
 #strange {
-    min-width: 600px;
+    
     color: white;
     background-image: url(imagens/pexels-jeswin-thomas-1280162.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 50px;
-    
-    
+    padding: 0px 20px 20px 20px;
+}
+@media screen and (min-width: 549px) {
+    #strange > p {
+        font-size: 1.9em;
+        width: 500px;
+        
+    }
+}
+@media screen and (max-width: 548px) {
+    #strange > p {
+        font-size: 1.0rem;
+       
+    }
 }
 
 #strange > p {
-    
-    max-width: 800px;
-    min-width: 500px;
-    font-size: 1.9em;
+    line-height: 1.5em;
+    font-family: var(--font1);
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
 }
 #door {
     
@@ -108,19 +127,20 @@ h2 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-bottom: 20px;
+    padding: 20px;
     
 }
 #bones > p {
     width: 70vw;
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 1.2em;
    
 }
 
 #yourself {
+    margin-bottom: 20px;
 }
 #yourself > p {
     font-size: 1.2em;
