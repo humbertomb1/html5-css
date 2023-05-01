@@ -5,84 +5,91 @@
 * {
     font-size: 1em;
 }
-
+body {
+    background-color: rgb(243,243,243);
+}
 :root {
     --font1: 'Acme', sans-serif;
     --font2: 'Varela', sans-serif;
     --font3: 'Anton', sans-serif;
 }
+
 #header {
     margin: -8px;
     color: white;
     font-family: var(--font3);
     background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
     text-align: center;
     height: 200px;
     border: 1px solid black;
 }
+
 #header > h1 {
     font-size: 2.8em;
     margin: 40px 0px 0px 0px;
 }
+
 #header > p {
     margin: 0;
     font-size: 0.6em;
     font-family: var(--font2);
     font-size: 0.8em;
 }
+
 section {
     margin: -8px;
 }
+
 .section  p {
     text-align: center;
     margin: auto;
    
 }
+
 #ausencia {
     margin-bottom: 50vh;
-    border: 1px solid black;
     padding: 20px;
+    
 }
+
 @media screen and (min-width: 549px) {
     #ausencia > p {
         font-size: 1.9em;
         
     }
 }
-@media screen and (max-width: 623px) {
+
+@media screen and (max-width: 548px) {
     #ausencia > p {
         font-size: 1em;
        
     }
 }
+
 #ausencia > p {
-    padding: 20px;
+    color: rgb(43, 41, 41);                                            
     font-family: var(--font1);
     line-height: 1.7em;
-    background-color: rgba(0, 0, 0, 0.486);
-    border-radius: 5px;
-    padding: 10px 10px;
 }
 
 #strange {
-    
     color: white;
     background-image: url(imagens/pexels-jeswin-thomas-1280162.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 0px 20px 20px 20px;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 50vh;
 }
+
 @media screen and (min-width: 549px) {
     #strange > p {
         font-size: 1.9em;
         width: 500px;
-        
     }
 }
+
 @media screen and (max-width: 548px) {
     #strange > p {
         font-size: 1.0rem;
@@ -91,80 +98,117 @@ section {
 }
 
 #strange > p {
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-family: var(--font1);
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
     padding: 10px;
 }
+
 #door {
-    
+    font-family: var(--font1);
     color: white;
-    padding-bottom: 50px;
+    padding: 0 20px 20px 20px;
     background-image: url(imagens/door4.jpg);
     background-position: center center;
     background-attachment: fixed;
+    margin-bottom: 50vh;
 }
 
 #door > p {
-    width: 70vw;
-    font-size: 1.2em;
-    max-width: 400px;
+    line-height: 1.5em;
+    max-width: 500px;
+    font-size: 1.9em;
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 5px;
     padding: 10px;
-}
-
-h2 {
-    text-indent: 20px;
-    font-size: 1.5em;
-}
-
-#bones {
-    color: white;
-    background-image: url(imagens/mom.jpg);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 20px;
     
 }
-#bones > p {
-    width: 70vw;
-    background-color: rgba(0, 0, 0, 0.486);
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1.2em;
-   
+@media screen and (max-width: 548px) {
+    #door > p {
+        font-size: 1.0em;
+    }
 }
-
-#yourself {
-    margin-bottom: 20px;
-}
-#yourself > p {
-    font-size: 1.2em;
-   
-    background-color: rgba(0, 0, 0, 0.486);
-    border-radius: 5px;
-    padding: 10px;
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
 }
 cite {
     font-style: normal;
 }
+
 address {
+    text-align: center;
     margin-top: -10px;
     margin-bottom: 20px;
-    text-indent: 20px;
     font-family: var(--font2);
-    font-size: 3.5vw;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 353px) {  /* MIIDIA QUERY PARA TÍTULO DO POEMA E AUTOR*/
+    #strange > h2 {
+        font-size: 1.3em;
+    }
+    #strange > address {
+        font-size: 1.0em;
+    }
+}
+#bones {
+    background-image: linear-gradient(to bottom, rgb(69, 123, 157), rgb(29, 53, 87));
+    font-family: var(--font1);
+    padding-bottom: 20px;
+    margin-bottom: 50vh;
+    
+}
+
+#bones > p {
+    color: rgb(168, 218, 220);
+    line-height: 1.7em;
+    width: 70vw;
+    padding: 10px 20px;
+    font-size: 1.2em;
+   
+}
+@media screen and (min-width: 549px) {
+    #bones > p {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    #bones > p {
+        font-size: 1.0rem;
+       
+    }
+}
+
+#yourself {
+    background-image: linear-gradient(to bottom, #52b788, #1b4332);
+    font-family: var(--font1);
+    padding-bottom: 30px;
+}
+
+#yourself > p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding: 10px;
+}
+
+@media screen and (min-width: 549px) {
+    #yourself > p {
+        font-size: 1.9em;
+    }
+    
 }
 footer {
     text-align: center;
     height: 50px;
     margin-left: -8px;
     margin-right: -8px;
+    margin-bottom: -8px;
     padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     background-color: black;
     font: normal 0.9em var(--font2);
