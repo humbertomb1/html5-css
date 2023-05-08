@@ -7,9 +7,31 @@
     padding: 0;
 }
 
+:root {
+    --cor-livro:  #40916c ;
+    --cor-novella: #95d5b2;
+    --cor-head: #081c15;
+    --cor-foot: #081c15; 
+}
+body {
+    background-color: #F3F3F3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9em;
+    padding: 20px;
+}
+
 table {
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+}
+
+#cabeca, #pe {
+    background-color: var(--cor-head);
+    color: #95d5b2;
 }
 
 td, th {
@@ -19,28 +41,40 @@ td, th {
 }
 
 .livro {
-    background-color: greenyellow;
+    background-color: var(--cor-livro);
 }
 
 .novela {
-    background-color: royalblue;
+    background-color: var(--cor-novella);
+}
+.container-legenda {
+    padding: 5px;
+   text-align: center;
 }
 .legenda {
     display: inline-block;
 }
+
 .legenda-livro {
     display: inline-block;
     height: 10px;
     width: 10px;
-    background-color: greenyellow;
+    margin-right: 5px;
+    background-color: var(--cor-livro);
 }
+
 .legenda-novela {
     display: inline-block;
     height: 10px;
     width: 10px;
-    background-color: royalblue;
+    background-color: var(--cor-novella);
 
 }
+
 .celulas-numero {
     text-align: right;
+}
+
+#total-paginas {
+    text-align: center;
 }
