@@ -10,21 +10,23 @@
 :root {
     --cor-livro:  #40916c ;
     --cor-novella: #95d5b2;
+    --cor-hq: #2cf59b;
     --cor-head: #081c15;
-    --cor-foot: #081c15; 
+    --cor-foot: #081c15;
 }
 body {
     background-color: #F3F3F3;
 }
 
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.9em;
     padding: 20px;
 }
 
 table {
-    margin: auto;
+    margin:  auto;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
 }
@@ -49,7 +51,7 @@ td, th {
 }
 .container-legenda {
     padding: 5px;
-   text-align: center;
+   text-align: initial;
 }
 .legenda {
     display: inline-block;
@@ -68,7 +70,17 @@ td, th {
     height: 10px;
     width: 10px;
     background-color: var(--cor-novella);
+}
 
+.hq {
+    background-color: var(--cor-hq);
+}
+
+.legenda-hq {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: var(--cor-hq);
 }
 
 .celulas-numero {
@@ -76,5 +88,5 @@ td, th {
 }
 
 #total-paginas {
-    text-align: center;
+    font-weight: bold;
 }

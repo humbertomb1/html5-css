@@ -12,11 +12,21 @@
         <h1>Tabela de Livros da Cosmere</h1>
         
         <table>
+            <caption>
+                <section class="container-legenda">
+                    <p class="legenda">Livro </p>
+                    <div class="legenda-livro"></div>
+                    <p class="legenda">Novella</p>
+                    <div class="legenda-novela"></div>
+                    <p class="legenda">HQ</p>
+                    <div class="legenda-hq"></div>
+                </section>
+            </caption>
             <thead id="cabeca">                         <!-- CABEÇA DA TABELA-->
                 <tr>
-                    <th>Ordem</th>
-                    <th>Páginas</th>
-                    <th>Ano da Publicação</th>
+                    <th scope="col">Ordem</th>
+                    <th scope="col">Páginas</th>
+                    <th scope="col">Ano da Publicação</th>
                 </tr>
             </thead>
         
@@ -97,17 +107,17 @@
                     <td class="celulas-numero">2022</td>
                 </tr>
                 <tr>
-                    <td class="novela">White Sand Vol.1</td>
+                    <td class="hq">White Sand Vol.1</td>
                     <td class="celulas-numero">157</td>
                     <td class="celulas-numero">2016</td>
                 </tr>
                 <tr>
-                    <td class="novela">White Sand Vol.2</td>
+                    <td class="hq">White Sand Vol.2</td>
                     <td class="celulas-numero">152</td>
                     <td class="celulas-numero">2018</td>
                 </tr>
                 <tr>
-                    <td class="novela">White Sand Vol.3</td>
+                    <td class="hq">White Sand Vol.3</td>
                     <td class="celulas-numero">150</td>
                     <td class="celulas-numero">2019</td>
                 </tr>
@@ -120,19 +130,12 @@
         
             <tfoot>                                                     <!--PÉ DA TABELA-->
                 <tr id="pe">
-                    <th>Total de Paginas</th>
-                    <td id="total-paginas">11245</td>
-                    <td></td>
+                    <th scope="row">Total de Paginas</th>
+                    <td  style="border-right: unset;"></td>
+                    <td id="total-paginas" style="border-left: unset;"> 11245</td>
                 </tr>
             </tfoot>
         </table>
-        
-        <section class="container-legenda">
-            <p class="legenda">Livro </p>
-            <div class="legenda-livro"></div>
-            <p class="legenda">Novella</p>
-            <div class="legenda-novela"></div>
-        </section>
     </main>
 </body>
 </html>
