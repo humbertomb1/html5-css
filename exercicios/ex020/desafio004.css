@@ -17,7 +17,7 @@ td, th {
     text-align: center;
     padding: 5px;
 }
-table > tbody > tr > th {
+table > thead > tr {
     background-color: gray;
     color: white;
 }
@@ -28,4 +28,7 @@ table > tbody > tr > th {
 .area {
     background-color: white;
     color: black;
+}
+.ncoluna {
+    background-color: yellow;
 }
