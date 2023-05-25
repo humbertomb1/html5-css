@@ -4,5 +4,5 @@
 <ol> 
    <li> <a href="https://humbertomb1.github.io/html5-css/exercicios/ex019/" target="_blank">Projeto Poemas</a></li>
    <li><a href="https://humbertomb1.github.io/html5-css/exercicios/ex016/Index.html" target="_blank">Projeto Android</a> </li>
-   <li> <a href="https://humbertomb1.github.io/html5-css/main/exercicios/ex022/index.html"> Projeto Midias Sociais</a> </li>
+   <li> <a href="https://humbertomb1.github.io/html5-css/exercicios/ex022/index.html" target="_blank"> Projeto Midias Sociais</a> </li>
 </ol>
