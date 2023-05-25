@@ -8,12 +8,15 @@
    font-size: 1.2em;
    ;
 }
+
 body {
     background-color: black;
 }
+
 body::-webkit-scrollbar {
     display: none;
 }
+
 img {
     width: 268px;
 }
@@ -35,6 +38,7 @@ a:hover {
     opacity: 0.8;
     text-decoration: underline;
 }
+
 a:focus {
     color: rgb(0, 0, 0);
 }
