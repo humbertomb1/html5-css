@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia querie</title>
+    <style>
+        @charset "UTF-8";
+            /* Configurações para todos os tipos de midia*/
+
+            h1 {
+                text-align: center;
+            }
+            img {
+                display: block;
+                margin: auto;
+            }
+
+        @media screen and (orientation: portrait) {
+        /* Midia query e midia feature para orientação retrato*/
+
+        .landscape {
+            display: none;
+        }
+
+        }
+
+        @media screen and (orientation: landscape) {
+            /* Midia query e midia feature para orientação paisagem*/
+
+        .portrait {
+            display: none;
+            
+        }
+            
+        }
+    </style>    
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+    <img src="imagens/cev-portrait.jpg" alt="imagem em modo portrait" class="portrait">
+    <img src="imagens/cev-landscape.jpg" alt="imagem em modo landscape" class="landscape">
+</body>
+</html>
