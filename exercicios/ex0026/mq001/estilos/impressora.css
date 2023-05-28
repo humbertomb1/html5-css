@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* Midia queria para impressora */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4em;
+}
+ul {
+    display: none;
+}
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse site é um exemplo de midia querie para impressora';
+}
