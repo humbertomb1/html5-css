@@ -13,7 +13,7 @@
     <header>
         <h1>Meu Site</h1>
         <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-        <nav id="nav-itens">
+        <nav id="navitens">
             <ul id="lista">
                 <li id="li-itens"><a href="#">Opção 1</a></li>
                 <li id="li-itens"><a href="#">Opção 2</a></li>
@@ -31,13 +31,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat tempore corporis rem, aliquid at laboriosam aut iste magnam autem sequi modi animi minima repudiandae facere dignissimos, nulla nisi. Praesentium? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, voluptatum error cumque repudiandae iusto tempore eius recusandae sit. Eligendi sed eveniet nihil. Deleniti natus quisquam eos quo iure saepe voluptate.</p>
         </article>
     </main>
+
     <script>
         function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none';
+            if (navitens.style.display == 'block') {
+                navitens.style.display = 'none'
 
             } else {
-                itens.style.display = 'block';
+                navitens.style.display = 'block'
             }
         }
     </script>

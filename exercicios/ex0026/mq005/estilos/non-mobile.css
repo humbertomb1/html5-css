@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     
     header {
         height: 100px;
@@ -16,7 +16,7 @@
     #burger {
     display: none;
    }
-   #nav-itens {
+   #navitens {
     width: 600px;
     height: 50px;
     
@@ -43,25 +43,89 @@
 
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width:1440px) {
     main {
         width: 70vw;
     }
-   
     
+    header {
+        height: 100px;
+        text-align: left;
+    }
+    header > h1 {
+        
+        margin: 0;
+        font-size: 2.9em;
+        text-align: center;
+    }
+    
+    #burger {
+    display: none;
+   }
+   #navitens {
+    width: 600px;
+    height: 50px;
+    
+    margin: 0;
+    display: inline-block;
+    
+   }
+   ul {
+    margin-top: 0px;
+    margin-left: 40px;
+   }
+   
+   #li-itens {
+    text-align: left;
+    display: inline-block;
+    
+   }
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1441px) and (max-width:1880px) {
     main {
         font-size: 1.4em;
     }
+
+    header {
+        height: 100px;
+        text-align: left;
+    }
+    header > h1 {
+        
+        margin: 0;
+        font-size: 2.9em;
+        text-align: center;
+    }
+    
+    #burger {
+    display: none;
+   }
+   #navitens {
+    width: 600px;
+    height: 50px;
+    
+    margin: 0;
+    display: inline-block;
+    
+   }
+   ul {
+    margin-top: 0px;
+    margin-left: 40px;
+   }
+   
+   #li-itens {
+    text-align: left;
+    display: inline-block;
+    
+   }
     
 }
 
 @media screen and (min-width:1881px) {
     main {
-        width: 60vw;
-        font-size: 1.9em;
+        width: 50vw;
+        font-size: 1.3em;
     }
     header {
         height: 150px;
@@ -77,5 +141,28 @@
     ul > li {
         font-size: 1.5em;
     }
+
+    #burger {
+        display: none;
+        }
+        #navitens {
+        width: 600px;
+        height: 50px;
+        
+        margin: 0;
+        display: inline-block;
+        
+        }
+        ul {
+        margin-top: 0px;
+        margin-left: 40px;
+        }
+        
+        #li-itens {
+        text-align: left;
+        display: inline-block;
+        
+        }
     
 }
+
