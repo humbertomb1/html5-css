@@ -9,7 +9,7 @@
     header > h1 {
         
         margin: 0;
-        font-size: 2.9em;
+        font-size: 2.4em;
         text-align: center;
     }
     
@@ -25,7 +25,7 @@
     
    }
    ul {
-    margin-top: 0px;
+    margin-top: 9px;
     margin-left: 40px;
    }
    
@@ -45,7 +45,7 @@
 
 @media screen and (min-width: 1025px) and (max-width:1440px) {
     main {
-        width: 70vw;
+        width: 800px;
     }
     
     header {
@@ -55,7 +55,7 @@
     header > h1 {
         
         margin: 0;
-        font-size: 2.9em;
+        font-size: 2.5em;
         text-align: center;
     }
     
@@ -65,13 +65,12 @@
    #navitens {
     width: 600px;
     height: 50px;
-    
     margin: 0;
     display: inline-block;
     
    }
    ul {
-    margin-top: 0px;
+    margin-top: 8px;
     margin-left: 40px;
    }
    
@@ -84,6 +83,7 @@
 
 @media screen and (min-width: 1441px) and (max-width:1880px) {
     main {
+        width: 800px;
         font-size: 1.4em;
     }
 
@@ -128,33 +128,30 @@
         font-size: 1.3em;
     }
     header {
+        text-align: left;
         height: 150px;
     }
     header > h1 {
-        
-        font-size: 3.5em;
-    }
-    ul {
-        margin-top: 30px;
-        
+        text-align: center;
+        font-size: 3.0em;
     }
     ul > li {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     #burger {
         display: none;
         }
         #navitens {
+        
         width: 600px;
         height: 50px;
-        
         margin: 0;
         display: inline-block;
         
         }
         ul {
-        margin-top: 0px;
+        margin-top: 41px;
         margin-left: 40px;
         }
         
